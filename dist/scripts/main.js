@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	smoothScroll(500);
+		smoothScroll(500);
 
 
 		//smoothscroll	
@@ -17,7 +17,5 @@ $(document).ready(function(){
 		    	}
 			});
 		}
-	
-
 
 });

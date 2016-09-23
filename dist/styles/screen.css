@@ -397,14 +397,18 @@ ul, li {
 .panel {
   text-align: center; }
   .panel .panel-heading {
-    padding: 0;
-    transition: all .5s ease-in-out; }
-    .panel .panel-heading:hover {
-      background: rgba(160, 29, 38, 0.7);
-      color: white; }
+    padding: 0; }
   .panel h4 {
-    margin: 0;
-    padding: 20px; }
+    margin: 0; }
+    .panel h4 a {
+      display: block;
+      color: black;
+      text-decoration: none;
+      padding: 20px;
+      transition: all .5s ease-in-out; }
+      .panel h4 a:hover {
+        background: rgba(160, 29, 38, 0.7);
+        color: white; }
 
 .panel-body {
   padding: 0; }
